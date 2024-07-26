@@ -10,13 +10,7 @@ module.exports = {
     jest: true
   },
   plugins: ['@typescript-eslint'],
-  extends: [
-    'eslint:recommended',
-    'plugin:@typescript-eslint/eslint-recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:vue/vue3-recommended',
-    'prettier'
-  ],
+  extends: ['eslint:recommended', 'plugin:@typescript-eslint/eslint-recommended', 'plugin:@typescript-eslint/recommended', 'plugin:vue/vue3-recommended', 'prettier', 'plugin:storybook/recommended'],
   rules: {
     // override/add rules settings here, such as:
     'vue/no-unused-vars': 'warn',
