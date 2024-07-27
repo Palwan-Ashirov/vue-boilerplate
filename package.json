@@ -10,7 +10,8 @@
     "lint:style": "stylelint \"**/*.{css,scss,vue}\" --fix",
     "format": "prettier -w -u .",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "test": "vitest"
   },
   "dependencies": {
     "pinia": "^2.2.0",
@@ -48,6 +49,7 @@
     "typescript": "^5.5.4",
     "vite": "^5.3.5",
     "vite-plugin-stylelint": "^5.3.1",
+    "vitest": "^2.0.4",
     "vue-eslint-parser": "^9.4.3",
     "vue-tsc": "^2.0.29"
   }
