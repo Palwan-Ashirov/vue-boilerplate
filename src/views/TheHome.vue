@@ -1,6 +1,8 @@
 <template>
   <div>The Home Page</div>
-  {{ globalStore.count }}
+  <div class="count__value">
+    {{ globalStore.count }}
+  </div>
   <button @click="globalStore.increamentCount">Counter</button>
 </template>
 
